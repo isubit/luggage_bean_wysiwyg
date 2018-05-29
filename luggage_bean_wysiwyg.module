@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Luggage Bean WYSIWYG feature.
+ */
+
+include_once 'luggage_bean_wysiwyg.features.inc';
