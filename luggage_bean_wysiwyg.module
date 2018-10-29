@@ -5,3 +5,15 @@
  */
 
 include_once 'luggage_bean_wysiwyg.features.inc';
+
+/**
+ * Implements hook_theme().
+ */
+function luggage_bean_wysiwyg_theme($existing, $type, $theme, $path) {
+  $themes['bean__wysiwyg'] = array(
+    'template' => 'bean--wysiwyg',
+    'path' => drupal_get_path('module', 'luggage_bean_wysiwyg') . '/templates'
+  );
+
+  return $themes;
+}
