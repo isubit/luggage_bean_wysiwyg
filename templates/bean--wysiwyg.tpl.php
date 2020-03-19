@@ -1,4 +1,4 @@
-<div class="bean-wysiwyg" <?php print $attributes; ?>>
+<div class="bean-wysiwyg clearfix" <?php print $attributes; ?>>
 
   <?php print render($title_suffix) ?>
 
